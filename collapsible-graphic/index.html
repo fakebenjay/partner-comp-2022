@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Results Table</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+  <script src="collapsible.js"></script>
+</head>
+
+<body>
+  <div class="wrap-collabsible">
+
+    <input id="collapsible1" class="toggle" type="checkbox">
+    <label for="collapsible1" class="lbl-toggle">What is your current compensation including salary and bonus?</label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="current-compensation"></div>
+    </div>
+    <br />
+    <input id="collapsible2" class="toggle" type="checkbox">
+    <label for="collapsible2" class="lbl-toggle">Are you currently making the highest salary of your career?</label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="highest-salary"></div>
+    </div>
+    <br />
+    <input id="collapsible3" class="toggle" type="checkbox">
+    <label for="collapsible3" class="lbl-toggle">What is your nondiscretionary compensation?</label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="nondiscretionary-compensation"></div>
+    </div>
+    <br />
+    <input id="collapsible4" class="toggle" type="checkbox">
+    <label for="collapsible4" class="lbl-toggle">How satisfied are you with your total compensation?</label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="satisfaction-with-total-compensation"></div>
+    </div>
+    <br />
+    <input id="collapsible5" class="toggle" type="checkbox">
+    <label for="collapsible5" class="lbl-toggle">Which of the following best describes your compensation in comparison to your legal industry peers?
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="comp-compared-to-peers"></div>
+    </div>
+    <br />
+
+    <input id="collapsible6" class="toggle" type="checkbox">
+    <label for="collapsible6" class="lbl-toggle">If you joined your firm as a partner, what percentage did your total compensation increase or decrease when you joined your current firm?
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="lateral-change-comp"></div>
+    </div>
+    <br />
+
+    <input id="collapsible7" class="toggle" type="checkbox">
+    <label for="collapsible7" class="lbl-toggle">Do you hope to remain at your current firm the rest of your career?
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="whole-career"></div>
+    </div>
+    <br />
+
+    <input id="collapsible8" class="toggle" type="checkbox">
+    <label for="collapsible8" class="lbl-toggle">Did you receive a pay cut directly related to COVID-19?
+
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="covid-pay-cut"></div>
+    </div>
+    <br />
+
+    <input id="collapsible9" class="toggle" type="checkbox">
+    <label for="collapsible9" class="lbl-toggle">If you received a pay cut as a result of COVID-19, by what percentage did your overall compensation decrease?
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="percent-covid-pay-cut"></div>
+    </div>
+    <br />
+
+    <input id="collapsible10" class="toggle" type="checkbox">
+    <label for="collapsible10" class="lbl-toggle">Has your firm asked any partners to retire in 2020?
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="partners-asked-retire"></div>
+    </div>
+    <br />
+
+    <input id="collapsible11" class="toggle" type="checkbox">
+    <label for="collapsible11" class="lbl-toggle">Has your firm de-equitized any partners in 2020?
+
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="deequitized-partners"></div>
+    </div>
+    <br />
+
+    <input id="collapsible12" class="toggle" type="checkbox">
+    <label for="collapsible12" class="lbl-toggle">Has your firm taken steps to reduce its office space in light of COVID-19?
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="office-space-cuts"></div>
+    </div>
+    <br />
+
+
+
+    <input id="collapsible13" class="toggle" type="checkbox">
+    <label for="collapsible13" class="lbl-toggle">What is your current hourly billing rate?
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="billing-rate"></div>
+    </div>
+    <br />
+
+    <input id="collapsible14" class="toggle" type="checkbox">
+    <label for="collapsible14" class="lbl-toggle">How many billable hours did you have in 2019?
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="2019-billable-hours"></div>
+    </div>
+    <br />
+
+    <input id="collapsible15" class="toggle" type="checkbox">
+    <label for="collapsible15" class="lbl-toggle">Over the past year, did your billable hours increase, decrease or stay the same?
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="billable-hours-change"></div>
+    </div>
+    <br />
+
+    <input id="collapsible16" class="toggle" type="checkbox">
+    <label for="collapsible16" class="lbl-toggle">In the year ahead, do you expect your billable hours to increase, decrease or stay the same?
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="billable-hour-outlook"></div>
+    </div>
+    <br />
+
+    <input id="collapsible17" class="toggle" type="checkbox">
+    <label for="collapsible17" class="lbl-toggle">What were your total non-billable hours for 2019?
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="nonbillable-hours-2019"></div>
+    </div>
+    <br />
+
+    <input id="collapsible18" class="toggle" type="checkbox">
+    <label for="collapsible18" class="lbl-toggle">What is the average partner salary at your firm?
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="avg-partner-salary"></div>
+    </div>
+    <br />
+
+    <input id="collapsible19" class="toggle" type="checkbox">
+    <label for="collapsible19" class="lbl-toggle">Are partner salaries transparent at your firm?
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="partner-salaries-transparent"></div>
+    </div>
+    <br />
+
+    <input id="collapsible20" class="toggle" type="checkbox">
+    <label for="collapsible20" class="lbl-toggle">What types of compensation does your firm offer?</label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="compensation-types"></div>
+    </div>
+    <br />
+    <input id="collapsible21" class="toggle" type="checkbox">
+    <label for="collapsible21" class="lbl-toggle">On what basis are annual bonuses distributed at your firm?</label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="bonus-distribution-basis"></div>
+    </div>
+    <br />
+
+    <input id="collapsible22" class="toggle" type="checkbox">
+    <label for="collapsible22" class="lbl-toggle">Which of the following does your firm offer to employees?</label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="benefits"></div>
+    </div>
+    <br />
+    <input id="collapsible23" class="toggle" type="checkbox">
+    <label for="collapsible23" class="lbl-toggle">What is the firm’s maximum 401-K match as a percentage of your salary?</label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="retirement-match"></div>
+    </div>
+    <br />
+    <input id="collapsible24" class="toggle" type="checkbox">
+    <label for="collapsible24" class="lbl-toggle">What method is used to compensate for overtime at your firm?</label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="overtime"></div>
+    </div>
+    <br />
+    <input id="collapsible25" class="toggle" type="checkbox">
+    <label for="collapsible25" class="lbl-toggle">If you are an equity partner, what is your capital contribution to the firm’s partnership as a percentage of your non-discretionary compensation?
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="ep-contributions"></div>
+    </div>
+    <br />
+    <input id="collapsible26" class="toggle" type="checkbox">
+    <label for="collapsible26" class="lbl-toggle">Does your firm have a lockstep salary scheme (pay increases based upon seniority rather than merit)? </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="lockstep"></div>
+    </div>
+    <br />
+    <input id="collapsible27" class="toggle" type="checkbox">
+    <label for="collapsible27" class="lbl-toggle">Does your firm track originations?</label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="originations"></div>
+    </div>
+    <br />
+    <input id="collapsible28" class="toggle" type="checkbox">
+    <label for="collapsible28" class="lbl-toggle">How many years of experience do associates typically have before they are elevated to partner?</label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="years-to-partner"></div>
+    </div>
+    <br />
+    <input id="collapsible29" class="toggle" type="checkbox">
+    <label for="collapsible29" class="lbl-toggle">How many years were you an associate or counsel before making partner?</label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="years-to-promotion"></div>
+    </div>
+    <br />
+    <input id="collapsible30" class="toggle" type="checkbox">
+    <label for="collapsible30" class="lbl-toggle">Which of the following do you consider very or extremely important for your firm to offer its employees?
+    </label>
+    <div class="collapsible-content">
+      <div class="content-inner" id="firm-offerings"></div>
+    </div>
+    <br />
+  </div>
+  <em>--By Ben Jay, Jonathan Hayter and the Law360 Pulse Staff.</em><br />
+  <br />
+  <em><a href="https://www.law360.com/pulse/articles/1350625" target="_blank">Click here</a> for more insights and analysis of Law360 Pulse's Partner Compensation Report.</em><br />
+  <br />
+  <em>Methodology: The Law360 Pulse Partner Compensation survey was conducted between Sept. 1 and Oct. 16, 2020, and included 584 participants at law firms with at least 25 attorneys. The survey was anonymous and will not connect any individual
+    response with any person. The average firm headcount of respondents is 647 and the average number of partners at respondents' firms is 257. On average, responding partners have been at the partner level for 12 years. In data visualizations,
+    numbers may total to more than 100% due to rounding. Total respondents include male, female, nonbinary and those who declined to identify.</em>
+  <script type="text/javascript" src="runner.js" defer></script>
+</body>
+
+</html>

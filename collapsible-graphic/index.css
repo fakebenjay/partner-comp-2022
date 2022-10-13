@@ -1,0 +1,90 @@
+/* Arial
+Law360 blue for question bars
+align left?
+vert to horiz:
+-firm offer to employeers
+y/n legend move to top?
+*/
+input[type='checkbox'] {
+  display: none;
+}
+
+.wrap-collabsible {
+  margin: 1.2rem 0;
+  max-width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.lbl-toggle {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 1rem;
+  color: #D7D9D7;
+  background: #0B2A44;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle:hover {
+  color: #FFF;
+}
+
+.lbl-toggle::before {
+  content: ' ';
+  display: inline-block;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+  transition: transform .2s ease-out;
+}
+
+.toggle:checked+.lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+
+.toggle:checked+.lbl-toggle+.collapsible-content {
+  max-height: 900px;
+}
+
+.toggle:checked+.lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner {
+  background: #0B2A44;
+  border-bottom: 1px solid rgba(0, 105, 255, .45);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: .5rem .5rem;
+}
+
+.collapsible-content p {
+  margin-bottom: 0;
+}
+
+/* LONGFORM SPECIFIC */
+.social-share {
+  visibility: hidden;
+}
+
+.body-copy {
+  max-width: 100%;
+}
+
+div.row {
+  width: 100%;
+  margin: 0;
+}

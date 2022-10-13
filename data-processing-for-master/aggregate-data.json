@@ -1,0 +1,2690 @@
+{
+  "allAll": {
+    "annual-comp": {
+      "breakdowns": {
+        "33": {
+          "value": 162,
+          "percent": 27.9,
+          "range": "Less than $300,000"
+        },
+        "66": {
+          "value": 266,
+          "percent": 45.9,
+          "range": "$300,000-$749,999"
+        },
+        "100": {
+          "value": 152,
+          "percent": 26.2,
+          "range": "$750,000 or more"
+        }
+      },
+      "averages": {
+        "median": 450000.0,
+        "mean": 667508.7534482758,
+        "max": 12000000.0,
+        "min": 0.0,
+        "respond_notna": 580,
+        "respond_na": 4
+      }
+    },
+    "satisfaction": {
+      "breakdowns": {
+        "0": {
+          "value": 59,
+          "percent": 10.1,
+          "range": "Very dissatisfied"
+        },
+        "25": {
+          "value": 113,
+          "percent": 19.3,
+          "range": "Somewhat dissatisfied"
+        },
+        "50": {
+          "value": 62,
+          "percent": 10.6,
+          "range": "Neither satisfied nor dissatisfied"
+        },
+        "75": {
+          "value": 218,
+          "percent": 37.3,
+          "range": "Somewhat satisfied"
+        },
+        "100": {
+          "value": 132,
+          "percent": 22.6,
+          "range": "Very satisfied"
+        }
+      },
+      "averages": {
+        "respond_notna": 584,
+        "respond_na": 0
+      }
+    },
+    "hourly-rate": {
+      "breakdowns": {
+        "33": {
+          "value": 102,
+          "percent": 17.5,
+          "range": "Less than $400"
+        },
+        "66": {
+          "value": 252,
+          "percent": 43.2,
+          "range": "$400-$699"
+        },
+        "100": {
+          "value": 230,
+          "percent": 39.4,
+          "range": "$700 or more"
+        }
+      },
+      "averages": {
+        "median": 620.0,
+        "mean": 655.9370205479452,
+        "max": 1695.0,
+        "min": 0.0,
+        "respond_notna": 584,
+        "respond_na": 0
+      }
+    },
+    "billable-hours": {
+      "breakdowns": {
+        "16": {
+          "value": 40,
+          "percent": 6.8,
+          "range": "Less than 1,000"
+        },
+        "33": {
+          "value": 123,
+          "percent": 21.1,
+          "range": "1,000-1,499"
+        },
+        "50": {
+          "value": 150,
+          "percent": 25.7,
+          "range": "1,500-1,799"
+        },
+        "66": {
+          "value": 116,
+          "percent": 19.9,
+          "range": "1,800-1,999"
+        },
+        "83": {
+          "value": 91,
+          "percent": 15.6,
+          "range": "2,000-2,199"
+        },
+        "100": {
+          "value": 64,
+          "percent": 11.0,
+          "range": "2,200 or more"
+        }
+      },
+      "averages": {
+        "median": 1721.5,
+        "mean": 1670.083904109589,
+        "max": 3000.0,
+        "min": 0.0,
+        "respond_notna": 584,
+        "respond_na": 0
+      }
+    },
+    "years-before-partner": {
+      "breakdowns": {
+        "16": {
+          "value": 3,
+          "percent": 0.5,
+          "range": "Less than 3"
+        },
+        "33": {
+          "value": 15,
+          "percent": 2.6,
+          "range": "3-5"
+        },
+        "50": {
+          "value": 378,
+          "percent": 64.7,
+          "range": "6-9"
+        },
+        "66": {
+          "value": 173,
+          "percent": 29.6,
+          "range": "10-14"
+        },
+        "83": {
+          "value": 10,
+          "percent": 1.7,
+          "range": "15-19"
+        },
+        "100": {
+          "value": 5,
+          "percent": 0.9,
+          "range": "20 or more"
+        }
+      },
+      "averages": {
+        "median": 8.0,
+        "mean": 8.758561643835616,
+        "max": 30.0,
+        "min": 0.0,
+        "respond_notna": 584,
+        "respond_na": 0
+      }
+    },
+    "cap-contribution": {
+      "breakdowns": {
+        "25": {
+          "value": 159,
+          "percent": 50.6,
+          "range": "Less than 10%"
+        },
+        "50": {
+          "value": 36,
+          "percent": 11.5,
+          "range": "10%-19%"
+        },
+        "75": {
+          "value": 52,
+          "percent": 16.6,
+          "range": "20%-29%"
+        },
+        "100": {
+          "value": 67,
+          "percent": 21.3,
+          "range": "30% or more"
+        }
+      },
+      "averages": {
+        "median": 8.165,
+        "mean": 17.23640127388535,
+        "max": 100.0,
+        "min": 0.0,
+        "respond_notna": 314,
+        "respond_na": 270
+      }
+    },
+    "stay-at-firm": {
+      "breakdowns": {
+        "0": {
+          "value": 120,
+          "percent": 20.5,
+          "range": "No"
+        },
+        "100": {
+          "value": 464,
+          "percent": 79.5,
+          "range": "Yes"
+        }
+      },
+      "averages": {
+        "respond_notna": 584,
+        "respond_na": 0
+      }
+    },
+    "length": 584
+  },
+  "allMale": {
+    "annual-comp": {
+      "breakdowns": {
+        "33": {
+          "value": 96,
+          "percent": 24.4,
+          "range": "Less than $300,000"
+        },
+        "66": {
+          "value": 180,
+          "percent": 45.8,
+          "range": "$300,000-$749,999"
+        },
+        "100": {
+          "value": 117,
+          "percent": 29.8,
+          "range": "$750,000 or more"
+        }
+      },
+      "averages": {
+        "median": 463000.0,
+        "mean": 691018.3129770992,
+        "max": 5500000.0,
+        "min": 0.0,
+        "respond_notna": 393,
+        "respond_na": 2
+      }
+    },
+    "satisfaction": {
+      "breakdowns": {
+        "0": {
+          "value": 38,
+          "percent": 9.6,
+          "range": "Very dissatisfied"
+        },
+        "25": {
+          "value": 73,
+          "percent": 18.5,
+          "range": "Somewhat dissatisfied"
+        },
+        "50": {
+          "value": 41,
+          "percent": 10.4,
+          "range": "Neither satisfied nor dissatisfied"
+        },
+        "75": {
+          "value": 148,
+          "percent": 37.5,
+          "range": "Somewhat satisfied"
+        },
+        "100": {
+          "value": 95,
+          "percent": 24.1,
+          "range": "Very satisfied"
+        }
+      },
+      "averages": {
+        "respond_notna": 395,
+        "respond_na": 0
+      }
+    },
+    "hourly-rate": {
+      "breakdowns": {
+        "33": {
+          "value": 66,
+          "percent": 16.7,
+          "range": "Less than $400"
+        },
+        "66": {
+          "value": 167,
+          "percent": 42.3,
+          "range": "$400-$699"
+        },
+        "100": {
+          "value": 162,
+          "percent": 41.0,
+          "range": "$700 or more"
+        }
+      },
+      "averages": {
+        "median": 625.0,
+        "mean": 666.6967594936708,
+        "max": 1695.0,
+        "min": 0.0,
+        "respond_notna": 395,
+        "respond_na": 0
+      }
+    },
+    "billable-hours": {
+      "breakdowns": {
+        "16": {
+          "value": 27,
+          "percent": 6.8,
+          "range": "Less than 1,000"
+        },
+        "33": {
+          "value": 82,
+          "percent": 20.8,
+          "range": "1,000-1,499"
+        },
+        "50": {
+          "value": 107,
+          "percent": 27.1,
+          "range": "1,500-1,799"
+        },
+        "66": {
+          "value": 74,
+          "percent": 18.7,
+          "range": "1,800-1,999"
+        },
+        "83": {
+          "value": 67,
+          "percent": 17.0,
+          "range": "2,000-2,199"
+        },
+        "100": {
+          "value": 38,
+          "percent": 9.6,
+          "range": "2,200 or more"
+        }
+      },
+      "averages": {
+        "median": 1700.0,
+        "mean": 1661.5822784810127,
+        "max": 3000.0,
+        "min": 0.0,
+        "respond_notna": 395,
+        "respond_na": 0
+      }
+    },
+    "years-before-partner": {
+      "breakdowns": {
+        "16": {
+          "value": 2,
+          "percent": 0.5,
+          "range": "Less than 3"
+        },
+        "33": {
+          "value": 11,
+          "percent": 2.8,
+          "range": "3-5"
+        },
+        "50": {
+          "value": 258,
+          "percent": 65.3,
+          "range": "6-9"
+        },
+        "66": {
+          "value": 115,
+          "percent": 29.1,
+          "range": "10-14"
+        },
+        "83": {
+          "value": 5,
+          "percent": 1.3,
+          "range": "15-19"
+        },
+        "100": {
+          "value": 4,
+          "percent": 1.0,
+          "range": "20 or more"
+        }
+      },
+      "averages": {
+        "median": 8.0,
+        "mean": 8.732911392405063,
+        "max": 30.0,
+        "min": 0.0,
+        "respond_notna": 395,
+        "respond_na": 0
+      }
+    },
+    "cap-contribution": {
+      "breakdowns": {
+        "25": {
+          "value": 118,
+          "percent": 50.6,
+          "range": "Less than 10%"
+        },
+        "50": {
+          "value": 26,
+          "percent": 11.2,
+          "range": "10%-19%"
+        },
+        "75": {
+          "value": 40,
+          "percent": 17.2,
+          "range": "20%-29%"
+        },
+        "100": {
+          "value": 49,
+          "percent": 21.0,
+          "range": "30% or more"
+        }
+      },
+      "averages": {
+        "median": 8.0,
+        "mean": 16.596137339055794,
+        "max": 100.0,
+        "min": 0.0,
+        "respond_notna": 233,
+        "respond_na": 162
+      }
+    },
+    "stay-at-firm": {
+      "breakdowns": {
+        "0": {
+          "value": 66,
+          "percent": 16.7,
+          "range": "No"
+        },
+        "100": {
+          "value": 329,
+          "percent": 83.3,
+          "range": "Yes"
+        }
+      },
+      "averages": {
+        "respond_notna": 395,
+        "respond_na": 0
+      }
+    },
+    "length": 395
+  },
+  "allFemale": {
+    "annual-comp": {
+      "breakdowns": {
+        "33": {
+          "value": 58,
+          "percent": 36.7,
+          "range": "Less than $300,000"
+        },
+        "66": {
+          "value": 72,
+          "percent": 45.6,
+          "range": "$300,000-$749,999"
+        },
+        "100": {
+          "value": 28,
+          "percent": 17.7,
+          "range": "$750,000 or more"
+        }
+      },
+      "averages": {
+        "median": 352500.0,
+        "mean": 614710.7911392405,
+        "max": 12000000.0,
+        "min": 180.0,
+        "respond_notna": 158,
+        "respond_na": 1
+      }
+    },
+    "satisfaction": {
+      "breakdowns": {
+        "0": {
+          "value": 17,
+          "percent": 10.7,
+          "range": "Very dissatisfied"
+        },
+        "25": {
+          "value": 32,
+          "percent": 20.1,
+          "range": "Somewhat dissatisfied"
+        },
+        "50": {
+          "value": 16,
+          "percent": 10.1,
+          "range": "Neither satisfied nor dissatisfied"
+        },
+        "75": {
+          "value": 60,
+          "percent": 37.7,
+          "range": "Somewhat satisfied"
+        },
+        "100": {
+          "value": 34,
+          "percent": 21.4,
+          "range": "Very satisfied"
+        }
+      },
+      "averages": {
+        "respond_notna": 159,
+        "respond_na": 0
+      }
+    },
+    "hourly-rate": {
+      "breakdowns": {
+        "33": {
+          "value": 31,
+          "percent": 19.5,
+          "range": "Less than $400"
+        },
+        "66": {
+          "value": 74,
+          "percent": 46.5,
+          "range": "$400-$699"
+        },
+        "100": {
+          "value": 54,
+          "percent": 34.0,
+          "range": "$700 or more"
+        }
+      },
+      "averages": {
+        "median": 595.0,
+        "mean": 629.2641509433962,
+        "max": 1650.0,
+        "min": 0.0,
+        "respond_notna": 159,
+        "respond_na": 0
+      }
+    },
+    "billable-hours": {
+      "breakdowns": {
+        "16": {
+          "value": 10,
+          "percent": 6.3,
+          "range": "Less than 1,000"
+        },
+        "33": {
+          "value": 36,
+          "percent": 22.6,
+          "range": "1,000-1,499"
+        },
+        "50": {
+          "value": 36,
+          "percent": 22.6,
+          "range": "1,500-1,799"
+        },
+        "66": {
+          "value": 37,
+          "percent": 23.3,
+          "range": "1,800-1,999"
+        },
+        "83": {
+          "value": 19,
+          "percent": 11.9,
+          "range": "2,000-2,199"
+        },
+        "100": {
+          "value": 21,
+          "percent": 13.2,
+          "range": "2,200 or more"
+        }
+      },
+      "averages": {
+        "median": 1758.0,
+        "mean": 1670.5471698113208,
+        "max": 3000.0,
+        "min": 0.0,
+        "respond_notna": 159,
+        "respond_na": 0
+      }
+    },
+    "years-before-partner": {
+      "breakdowns": {
+        "16": {
+          "value": 0,
+          "percent": 0.0,
+          "range": "Less than 3"
+        },
+        "33": {
+          "value": 3,
+          "percent": 1.9,
+          "range": "3-5"
+        },
+        "50": {
+          "value": 102,
+          "percent": 64.2,
+          "range": "6-9"
+        },
+        "66": {
+          "value": 49,
+          "percent": 30.8,
+          "range": "10-14"
+        },
+        "83": {
+          "value": 4,
+          "percent": 2.5,
+          "range": "15-19"
+        },
+        "100": {
+          "value": 1,
+          "percent": 0.6,
+          "range": "20 or more"
+        }
+      },
+      "averages": {
+        "median": 9.0,
+        "mean": 8.874213836477987,
+        "max": 20.0,
+        "min": 5.0,
+        "respond_notna": 159,
+        "respond_na": 0
+      }
+    },
+    "cap-contribution": {
+      "breakdowns": {
+        "25": {
+          "value": 35,
+          "percent": 54.7,
+          "range": "Less than 10%"
+        },
+        "50": {
+          "value": 8,
+          "percent": 12.5,
+          "range": "10%-19%"
+        },
+        "75": {
+          "value": 9,
+          "percent": 14.1,
+          "range": "20%-29%"
+        },
+        "100": {
+          "value": 12,
+          "percent": 18.8,
+          "range": "30% or more"
+        }
+      },
+      "averages": {
+        "median": 7.5,
+        "mean": 18.14578125,
+        "max": 100.0,
+        "min": 0.0,
+        "respond_notna": 64,
+        "respond_na": 95
+      }
+    },
+    "stay-at-firm": {
+      "breakdowns": {
+        "0": {
+          "value": 45,
+          "percent": 28.3,
+          "range": "No"
+        },
+        "100": {
+          "value": 114,
+          "percent": 71.7,
+          "range": "Yes"
+        }
+      },
+      "averages": {
+        "respond_notna": 159,
+        "respond_na": 0
+      }
+    },
+    "length": 159
+  },
+  "smallAll": {
+    "annual-comp": {
+      "breakdowns": {
+        "33": {
+          "value": 82,
+          "percent": 41.8,
+          "range": "Less than $300,000"
+        },
+        "66": {
+          "value": 83,
+          "percent": 42.3,
+          "range": "$300,000-$749,999"
+        },
+        "100": {
+          "value": 31,
+          "percent": 15.8,
+          "range": "$750,000 or more"
+        }
+      },
+      "averages": {
+        "median": 320000.0,
+        "mean": 456132.80102040817,
+        "max": 2800000.0,
+        "min": 0.0,
+        "respond_notna": 196,
+        "respond_na": 2
+      }
+    },
+    "satisfaction": {
+      "breakdowns": {
+        "0": {
+          "value": 20,
+          "percent": 10.1,
+          "range": "Very dissatisfied"
+        },
+        "25": {
+          "value": 44,
+          "percent": 22.2,
+          "range": "Somewhat dissatisfied"
+        },
+        "50": {
+          "value": 28,
+          "percent": 14.1,
+          "range": "Neither satisfied nor dissatisfied"
+        },
+        "75": {
+          "value": 61,
+          "percent": 30.8,
+          "range": "Somewhat satisfied"
+        },
+        "100": {
+          "value": 45,
+          "percent": 22.7,
+          "range": "Very satisfied"
+        }
+      },
+      "averages": {
+        "respond_notna": 198,
+        "respond_na": 0
+      }
+    },
+    "hourly-rate": {
+      "breakdowns": {
+        "33": {
+          "value": 70,
+          "percent": 35.4,
+          "range": "Less than $400"
+        },
+        "66": {
+          "value": 96,
+          "percent": 48.5,
+          "range": "$400-$699"
+        },
+        "100": {
+          "value": 32,
+          "percent": 16.2,
+          "range": "$700 or more"
+        }
+      },
+      "averages": {
+        "median": 450.0,
+        "mean": 482.23343434343434,
+        "max": 1085.0,
+        "min": 0.0,
+        "respond_notna": 198,
+        "respond_na": 0
+      }
+    },
+    "billable-hours": {
+      "breakdowns": {
+        "16": {
+          "value": 15,
+          "percent": 7.6,
+          "range": "Less than 1,000"
+        },
+        "33": {
+          "value": 36,
+          "percent": 18.2,
+          "range": "1,000-1,499"
+        },
+        "50": {
+          "value": 51,
+          "percent": 25.8,
+          "range": "1,500-1,799"
+        },
+        "66": {
+          "value": 31,
+          "percent": 15.7,
+          "range": "1,800-1,999"
+        },
+        "83": {
+          "value": 42,
+          "percent": 21.2,
+          "range": "2,000-2,199"
+        },
+        "100": {
+          "value": 23,
+          "percent": 11.6,
+          "range": "2,200 or more"
+        }
+      },
+      "averages": {
+        "median": 1750.0,
+        "mean": 1673.2373737373737,
+        "max": 3000.0,
+        "min": 0.0,
+        "respond_notna": 198,
+        "respond_na": 0
+      }
+    },
+    "years-before-partner": {
+      "breakdowns": {
+        "16": {
+          "value": 1,
+          "percent": 0.5,
+          "range": "Less than 3"
+        },
+        "33": {
+          "value": 11,
+          "percent": 5.6,
+          "range": "3-5"
+        },
+        "50": {
+          "value": 132,
+          "percent": 66.7,
+          "range": "6-9"
+        },
+        "66": {
+          "value": 43,
+          "percent": 21.7,
+          "range": "10-14"
+        },
+        "83": {
+          "value": 7,
+          "percent": 3.5,
+          "range": "15-19"
+        },
+        "100": {
+          "value": 4,
+          "percent": 2.0,
+          "range": "20 or more"
+        }
+      },
+      "averages": {
+        "median": 8.0,
+        "mean": 8.636363636363637,
+        "max": 30.0,
+        "min": 2.0,
+        "respond_notna": 198,
+        "respond_na": 0
+      }
+    },
+    "cap-contribution": {
+      "breakdowns": {
+        "25": {
+          "value": 61,
+          "percent": 63.5,
+          "range": "Less than 10%"
+        },
+        "50": {
+          "value": 15,
+          "percent": 15.6,
+          "range": "10%-19%"
+        },
+        "75": {
+          "value": 6,
+          "percent": 6.2,
+          "range": "20%-29%"
+        },
+        "100": {
+          "value": 14,
+          "percent": 14.6,
+          "range": "30% or more"
+        }
+      },
+      "averages": {
+        "median": 5.0,
+        "mean": 15.354166666666666,
+        "max": 100.0,
+        "min": 0.0,
+        "respond_notna": 96,
+        "respond_na": 102
+      }
+    },
+    "stay-at-firm": {
+      "breakdowns": {
+        "0": {
+          "value": 35,
+          "percent": 17.7,
+          "range": "No"
+        },
+        "100": {
+          "value": 163,
+          "percent": 82.3,
+          "range": "Yes"
+        }
+      },
+      "averages": {
+        "respond_notna": 198,
+        "respond_na": 0
+      }
+    },
+    "length": 198
+  },
+  "smallMale": {
+    "annual-comp": {
+      "breakdowns": {
+        "33": {
+          "value": 53,
+          "percent": 39.3,
+          "range": "Less than $300,000"
+        },
+        "66": {
+          "value": 58,
+          "percent": 43.0,
+          "range": "$300,000-$749,999"
+        },
+        "100": {
+          "value": 24,
+          "percent": 17.8,
+          "range": "$750,000 or more"
+        }
+      },
+      "averages": {
+        "median": 340000.0,
+        "mean": 482183.51851851854,
+        "max": 2800000.0,
+        "min": 0.0,
+        "respond_notna": 135,
+        "respond_na": 1
+      }
+    },
+    "satisfaction": {
+      "breakdowns": {
+        "0": {
+          "value": 12,
+          "percent": 8.8,
+          "range": "Very dissatisfied"
+        },
+        "25": {
+          "value": 29,
+          "percent": 21.3,
+          "range": "Somewhat dissatisfied"
+        },
+        "50": {
+          "value": 19,
+          "percent": 14.0,
+          "range": "Neither satisfied nor dissatisfied"
+        },
+        "75": {
+          "value": 41,
+          "percent": 30.1,
+          "range": "Somewhat satisfied"
+        },
+        "100": {
+          "value": 35,
+          "percent": 25.7,
+          "range": "Very satisfied"
+        }
+      },
+      "averages": {
+        "respond_notna": 136,
+        "respond_na": 0
+      }
+    },
+    "hourly-rate": {
+      "breakdowns": {
+        "33": {
+          "value": 50,
+          "percent": 36.8,
+          "range": "Less than $400"
+        },
+        "66": {
+          "value": 63,
+          "percent": 46.3,
+          "range": "$400-$699"
+        },
+        "100": {
+          "value": 23,
+          "percent": 16.9,
+          "range": "$700 or more"
+        }
+      },
+      "averages": {
+        "median": 450.0,
+        "mean": 478.3251470588235,
+        "max": 1085.0,
+        "min": 0.0,
+        "respond_notna": 136,
+        "respond_na": 0
+      }
+    },
+    "billable-hours": {
+      "breakdowns": {
+        "16": {
+          "value": 10,
+          "percent": 7.4,
+          "range": "Less than 1,000"
+        },
+        "33": {
+          "value": 25,
+          "percent": 18.4,
+          "range": "1,000-1,499"
+        },
+        "50": {
+          "value": 34,
+          "percent": 25.0,
+          "range": "1,500-1,799"
+        },
+        "66": {
+          "value": 21,
+          "percent": 15.4,
+          "range": "1,800-1,999"
+        },
+        "83": {
+          "value": 32,
+          "percent": 23.5,
+          "range": "2,000-2,199"
+        },
+        "100": {
+          "value": 14,
+          "percent": 10.3,
+          "range": "2,200 or more"
+        }
+      },
+      "averages": {
+        "median": 1773.5,
+        "mean": 1666.6544117647059,
+        "max": 3000.0,
+        "min": 0.0,
+        "respond_notna": 136,
+        "respond_na": 0
+      }
+    },
+    "years-before-partner": {
+      "breakdowns": {
+        "16": {
+          "value": 0,
+          "percent": 0.0,
+          "range": "Less than 3"
+        },
+        "33": {
+          "value": 9,
+          "percent": 6.6,
+          "range": "3-5"
+        },
+        "50": {
+          "value": 92,
+          "percent": 67.6,
+          "range": "6-9"
+        },
+        "66": {
+          "value": 29,
+          "percent": 21.3,
+          "range": "10-14"
+        },
+        "83": {
+          "value": 3,
+          "percent": 2.2,
+          "range": "15-19"
+        },
+        "100": {
+          "value": 3,
+          "percent": 2.2,
+          "range": "20 or more"
+        }
+      },
+      "averages": {
+        "median": 8.0,
+        "mean": 8.580882352941176,
+        "max": 30.0,
+        "min": 5.0,
+        "respond_notna": 136,
+        "respond_na": 0
+      }
+    },
+    "cap-contribution": {
+      "breakdowns": {
+        "25": {
+          "value": 49,
+          "percent": 67.1,
+          "range": "Less than 10%"
+        },
+        "50": {
+          "value": 12,
+          "percent": 16.4,
+          "range": "10%-19%"
+        },
+        "75": {
+          "value": 5,
+          "percent": 6.8,
+          "range": "20%-29%"
+        },
+        "100": {
+          "value": 7,
+          "percent": 9.6,
+          "range": "30% or more"
+        }
+      },
+      "averages": {
+        "median": 5.0,
+        "mean": 12.150684931506849,
+        "max": 100.0,
+        "min": 0.0,
+        "respond_notna": 73,
+        "respond_na": 63
+      }
+    },
+    "stay-at-firm": {
+      "breakdowns": {
+        "0": {
+          "value": 21,
+          "percent": 15.4,
+          "range": "No"
+        },
+        "100": {
+          "value": 115,
+          "percent": 84.6,
+          "range": "Yes"
+        }
+      },
+      "averages": {
+        "respond_notna": 136,
+        "respond_na": 0
+      }
+    },
+    "length": 136
+  },
+  "smallFemale": {
+    "annual-comp": {
+      "breakdowns": {
+        "33": {
+          "value": 26,
+          "percent": 54.2,
+          "range": "Less than $300,000"
+        },
+        "66": {
+          "value": 19,
+          "percent": 39.6,
+          "range": "$300,000-$749,999"
+        },
+        "100": {
+          "value": 3,
+          "percent": 6.2,
+          "range": "$750,000 or more"
+        }
+      },
+      "averages": {
+        "median": 277500.0,
+        "mean": 361805.8333333333,
+        "max": 1250000.0,
+        "min": 180.0,
+        "respond_notna": 48,
+        "respond_na": 1
+      }
+    },
+    "satisfaction": {
+      "breakdowns": {
+        "0": {
+          "value": 5,
+          "percent": 10.2,
+          "range": "Very dissatisfied"
+        },
+        "25": {
+          "value": 12,
+          "percent": 24.5,
+          "range": "Somewhat dissatisfied"
+        },
+        "50": {
+          "value": 8,
+          "percent": 16.3,
+          "range": "Neither satisfied nor dissatisfied"
+        },
+        "75": {
+          "value": 16,
+          "percent": 32.7,
+          "range": "Somewhat satisfied"
+        },
+        "100": {
+          "value": 8,
+          "percent": 16.3,
+          "range": "Very satisfied"
+        }
+      },
+      "averages": {
+        "respond_notna": 49,
+        "respond_na": 0
+      }
+    },
+    "hourly-rate": {
+      "breakdowns": {
+        "33": {
+          "value": 16,
+          "percent": 32.7,
+          "range": "Less than $400"
+        },
+        "66": {
+          "value": 27,
+          "percent": 55.1,
+          "range": "$400-$699"
+        },
+        "100": {
+          "value": 6,
+          "percent": 12.2,
+          "range": "$700 or more"
+        }
+      },
+      "averages": {
+        "median": 465.0,
+        "mean": 491.6530612244898,
+        "max": 1000.0,
+        "min": 175.0,
+        "respond_notna": 49,
+        "respond_na": 0
+      }
+    },
+    "billable-hours": {
+      "breakdowns": {
+        "16": {
+          "value": 4,
+          "percent": 8.2,
+          "range": "Less than 1,000"
+        },
+        "33": {
+          "value": 7,
+          "percent": 14.3,
+          "range": "1,000-1,499"
+        },
+        "50": {
+          "value": 15,
+          "percent": 30.6,
+          "range": "1,500-1,799"
+        },
+        "66": {
+          "value": 10,
+          "percent": 20.4,
+          "range": "1,800-1,999"
+        },
+        "83": {
+          "value": 8,
+          "percent": 16.3,
+          "range": "2,000-2,199"
+        },
+        "100": {
+          "value": 5,
+          "percent": 10.2,
+          "range": "2,200 or more"
+        }
+      },
+      "averages": {
+        "median": 1750.0,
+        "mean": 1638.8163265306123,
+        "max": 2350.0,
+        "min": 0.0,
+        "respond_notna": 49,
+        "respond_na": 0
+      }
+    },
+    "years-before-partner": {
+      "breakdowns": {
+        "16": {
+          "value": 0,
+          "percent": 0.0,
+          "range": "Less than 3"
+        },
+        "33": {
+          "value": 1,
+          "percent": 2.0,
+          "range": "3-5"
+        },
+        "50": {
+          "value": 34,
+          "percent": 69.4,
+          "range": "6-9"
+        },
+        "66": {
+          "value": 10,
+          "percent": 20.4,
+          "range": "10-14"
+        },
+        "83": {
+          "value": 3,
+          "percent": 6.1,
+          "range": "15-19"
+        },
+        "100": {
+          "value": 1,
+          "percent": 2.0,
+          "range": "20 or more"
+        }
+      },
+      "averages": {
+        "median": 8.0,
+        "mean": 8.83673469387755,
+        "max": 20.0,
+        "min": 5.0,
+        "respond_notna": 49,
+        "respond_na": 0
+      }
+    },
+    "cap-contribution": {
+      "breakdowns": {
+        "25": {
+          "value": 9,
+          "percent": 56.2,
+          "range": "Less than 10%"
+        },
+        "50": {
+          "value": 2,
+          "percent": 12.5,
+          "range": "10%-19%"
+        },
+        "75": {
+          "value": 1,
+          "percent": 6.2,
+          "range": "20%-29%"
+        },
+        "100": {
+          "value": 4,
+          "percent": 25.0,
+          "range": "30% or more"
+        }
+      },
+      "averages": {
+        "median": 8.5,
+        "mean": 24.125,
+        "max": 100.0,
+        "min": 0.0,
+        "respond_notna": 16,
+        "respond_na": 33
+      }
+    },
+    "stay-at-firm": {
+      "breakdowns": {
+        "0": {
+          "value": 11,
+          "percent": 22.4,
+          "range": "No"
+        },
+        "100": {
+          "value": 38,
+          "percent": 77.6,
+          "range": "Yes"
+        }
+      },
+      "averages": {
+        "respond_notna": 49,
+        "respond_na": 0
+      }
+    },
+    "length": 49
+  },
+  "mediumAll": {
+    "annual-comp": {
+      "breakdowns": {
+        "33": {
+          "value": 62,
+          "percent": 24.5,
+          "range": "Less than $300,000"
+        },
+        "66": {
+          "value": 131,
+          "percent": 51.8,
+          "range": "$300,000-$749,999"
+        },
+        "100": {
+          "value": 60,
+          "percent": 23.7,
+          "range": "$750,000 or more"
+        }
+      },
+      "averages": {
+        "median": 450000.0,
+        "mean": 655284.766798419,
+        "max": 12000000.0,
+        "min": 1500.0,
+        "respond_notna": 253,
+        "respond_na": 2
+      }
+    },
+    "satisfaction": {
+      "breakdowns": {
+        "0": {
+          "value": 25,
+          "percent": 9.8,
+          "range": "Very dissatisfied"
+        },
+        "25": {
+          "value": 49,
+          "percent": 19.2,
+          "range": "Somewhat dissatisfied"
+        },
+        "50": {
+          "value": 23,
+          "percent": 9.0,
+          "range": "Neither satisfied nor dissatisfied"
+        },
+        "75": {
+          "value": 95,
+          "percent": 37.3,
+          "range": "Somewhat satisfied"
+        },
+        "100": {
+          "value": 63,
+          "percent": 24.7,
+          "range": "Very satisfied"
+        }
+      },
+      "averages": {
+        "respond_notna": 255,
+        "respond_na": 0
+      }
+    },
+    "hourly-rate": {
+      "breakdowns": {
+        "33": {
+          "value": 22,
+          "percent": 8.6,
+          "range": "Less than $400"
+        },
+        "66": {
+          "value": 133,
+          "percent": 52.2,
+          "range": "$400-$699"
+        },
+        "100": {
+          "value": 100,
+          "percent": 39.2,
+          "range": "$700 or more"
+        }
+      },
+      "averages": {
+        "median": 625.0,
+        "mean": 673.9333333333333,
+        "max": 1695.0,
+        "min": 85.0,
+        "respond_notna": 255,
+        "respond_na": 0
+      }
+    },
+    "billable-hours": {
+      "breakdowns": {
+        "16": {
+          "value": 20,
+          "percent": 7.8,
+          "range": "Less than 1,000"
+        },
+        "33": {
+          "value": 59,
+          "percent": 23.1,
+          "range": "1,000-1,499"
+        },
+        "50": {
+          "value": 66,
+          "percent": 25.9,
+          "range": "1,500-1,799"
+        },
+        "66": {
+          "value": 55,
+          "percent": 21.6,
+          "range": "1,800-1,999"
+        },
+        "83": {
+          "value": 29,
+          "percent": 11.4,
+          "range": "2,000-2,199"
+        },
+        "100": {
+          "value": 26,
+          "percent": 10.2,
+          "range": "2,200 or more"
+        }
+      },
+      "averages": {
+        "median": 1700.0,
+        "mean": 1650.1529411764707,
+        "max": 3000.0,
+        "min": 300.0,
+        "respond_notna": 255,
+        "respond_na": 0
+      }
+    },
+    "years-before-partner": {
+      "breakdowns": {
+        "16": {
+          "value": 2,
+          "percent": 0.8,
+          "range": "Less than 3"
+        },
+        "33": {
+          "value": 4,
+          "percent": 1.6,
+          "range": "3-5"
+        },
+        "50": {
+          "value": 166,
+          "percent": 65.1,
+          "range": "6-9"
+        },
+        "66": {
+          "value": 80,
+          "percent": 31.4,
+          "range": "10-14"
+        },
+        "83": {
+          "value": 2,
+          "percent": 0.8,
+          "range": "15-19"
+        },
+        "100": {
+          "value": 1,
+          "percent": 0.4,
+          "range": "20 or more"
+        }
+      },
+      "averages": {
+        "median": 8.0,
+        "mean": 8.707843137254901,
+        "max": 20.0,
+        "min": 0.0,
+        "respond_notna": 255,
+        "respond_na": 0
+      }
+    },
+    "cap-contribution": {
+      "breakdowns": {
+        "25": {
+          "value": 70,
+          "percent": 48.3,
+          "range": "Less than 10%"
+        },
+        "50": {
+          "value": 16,
+          "percent": 11.0,
+          "range": "10%-19%"
+        },
+        "75": {
+          "value": 30,
+          "percent": 20.7,
+          "range": "20%-29%"
+        },
+        "100": {
+          "value": 29,
+          "percent": 20.0,
+          "range": "30% or more"
+        }
+      },
+      "averages": {
+        "median": 10.0,
+        "mean": 16.014,
+        "max": 100.0,
+        "min": 0.0,
+        "respond_notna": 145,
+        "respond_na": 110
+      }
+    },
+    "stay-at-firm": {
+      "breakdowns": {
+        "0": {
+          "value": 55,
+          "percent": 21.6,
+          "range": "No"
+        },
+        "100": {
+          "value": 200,
+          "percent": 78.4,
+          "range": "Yes"
+        }
+      },
+      "averages": {
+        "respond_notna": 255,
+        "respond_na": 0
+      }
+    },
+    "length": 255
+  },
+  "mediumMale": {
+    "annual-comp": {
+      "breakdowns": {
+        "33": {
+          "value": 35,
+          "percent": 19.9,
+          "range": "Less than $300,000"
+        },
+        "66": {
+          "value": 95,
+          "percent": 54.0,
+          "range": "$300,000-$749,999"
+        },
+        "100": {
+          "value": 46,
+          "percent": 26.1,
+          "range": "$750,000 or more"
+        }
+      },
+      "averages": {
+        "median": 489500.0,
+        "mean": 630343.3011363636,
+        "max": 4000000.0,
+        "min": 7500.0,
+        "respond_notna": 176,
+        "respond_na": 1
+      }
+    },
+    "satisfaction": {
+      "breakdowns": {
+        "0": {
+          "value": 18,
+          "percent": 10.2,
+          "range": "Very dissatisfied"
+        },
+        "25": {
+          "value": 29,
+          "percent": 16.4,
+          "range": "Somewhat dissatisfied"
+        },
+        "50": {
+          "value": 17,
+          "percent": 9.6,
+          "range": "Neither satisfied nor dissatisfied"
+        },
+        "75": {
+          "value": 71,
+          "percent": 40.1,
+          "range": "Somewhat satisfied"
+        },
+        "100": {
+          "value": 42,
+          "percent": 23.7,
+          "range": "Very satisfied"
+        }
+      },
+      "averages": {
+        "respond_notna": 177,
+        "respond_na": 0
+      }
+    },
+    "hourly-rate": {
+      "breakdowns": {
+        "33": {
+          "value": 10,
+          "percent": 5.6,
+          "range": "Less than $400"
+        },
+        "66": {
+          "value": 93,
+          "percent": 52.5,
+          "range": "$400-$699"
+        },
+        "100": {
+          "value": 74,
+          "percent": 41.8,
+          "range": "$700 or more"
+        }
+      },
+      "averages": {
+        "median": 645.0,
+        "mean": 693.6892655367232,
+        "max": 1695.0,
+        "min": 85.0,
+        "respond_notna": 177,
+        "respond_na": 0
+      }
+    },
+    "billable-hours": {
+      "breakdowns": {
+        "16": {
+          "value": 15,
+          "percent": 8.5,
+          "range": "Less than 1,000"
+        },
+        "33": {
+          "value": 42,
+          "percent": 23.7,
+          "range": "1,000-1,499"
+        },
+        "50": {
+          "value": 49,
+          "percent": 27.7,
+          "range": "1,500-1,799"
+        },
+        "66": {
+          "value": 35,
+          "percent": 19.8,
+          "range": "1,800-1,999"
+        },
+        "83": {
+          "value": 20,
+          "percent": 11.3,
+          "range": "2,000-2,199"
+        },
+        "100": {
+          "value": 16,
+          "percent": 9.0,
+          "range": "2,200 or more"
+        }
+      },
+      "averages": {
+        "median": 1650.0,
+        "mean": 1629.3954802259886,
+        "max": 3000.0,
+        "min": 300.0,
+        "respond_notna": 177,
+        "respond_na": 0
+      }
+    },
+    "years-before-partner": {
+      "breakdowns": {
+        "16": {
+          "value": 2,
+          "percent": 1.1,
+          "range": "Less than 3"
+        },
+        "33": {
+          "value": 2,
+          "percent": 1.1,
+          "range": "3-5"
+        },
+        "50": {
+          "value": 118,
+          "percent": 66.7,
+          "range": "6-9"
+        },
+        "66": {
+          "value": 52,
+          "percent": 29.4,
+          "range": "10-14"
+        },
+        "83": {
+          "value": 2,
+          "percent": 1.1,
+          "range": "15-19"
+        },
+        "100": {
+          "value": 1,
+          "percent": 0.6,
+          "range": "20 or more"
+        }
+      },
+      "averages": {
+        "median": 8.0,
+        "mean": 8.703389830508474,
+        "max": 20.0,
+        "min": 0.0,
+        "respond_notna": 177,
+        "respond_na": 0
+      }
+    },
+    "cap-contribution": {
+      "breakdowns": {
+        "25": {
+          "value": 51,
+          "percent": 48.6,
+          "range": "Less than 10%"
+        },
+        "50": {
+          "value": 11,
+          "percent": 10.5,
+          "range": "10%-19%"
+        },
+        "75": {
+          "value": 22,
+          "percent": 21.0,
+          "range": "20%-29%"
+        },
+        "100": {
+          "value": 21,
+          "percent": 20.0,
+          "range": "30% or more"
+        }
+      },
+      "averages": {
+        "median": 10.0,
+        "mean": 15.75904761904762,
+        "max": 100.0,
+        "min": 0.0,
+        "respond_notna": 105,
+        "respond_na": 72
+      }
+    },
+    "stay-at-firm": {
+      "breakdowns": {
+        "0": {
+          "value": 33,
+          "percent": 18.6,
+          "range": "No"
+        },
+        "100": {
+          "value": 144,
+          "percent": 81.4,
+          "range": "Yes"
+        }
+      },
+      "averages": {
+        "respond_notna": 177,
+        "respond_na": 0
+      }
+    },
+    "length": 177
+  },
+  "mediumFemale": {
+    "annual-comp": {
+      "breakdowns": {
+        "33": {
+          "value": 26,
+          "percent": 37.1,
+          "range": "Less than $300,000"
+        },
+        "66": {
+          "value": 31,
+          "percent": 44.3,
+          "range": "$300,000-$749,999"
+        },
+        "100": {
+          "value": 13,
+          "percent": 18.6,
+          "range": "$750,000 or more"
+        }
+      },
+      "averages": {
+        "median": 365000.0,
+        "mean": 727308.9285714285,
+        "max": 12000000.0,
+        "min": 1500.0,
+        "respond_notna": 70,
+        "respond_na": 0
+      }
+    },
+    "satisfaction": {
+      "breakdowns": {
+        "0": {
+          "value": 7,
+          "percent": 10.0,
+          "range": "Very dissatisfied"
+        },
+        "25": {
+          "value": 16,
+          "percent": 22.9,
+          "range": "Somewhat dissatisfied"
+        },
+        "50": {
+          "value": 5,
+          "percent": 7.1,
+          "range": "Neither satisfied nor dissatisfied"
+        },
+        "75": {
+          "value": 22,
+          "percent": 31.4,
+          "range": "Somewhat satisfied"
+        },
+        "100": {
+          "value": 20,
+          "percent": 28.6,
+          "range": "Very satisfied"
+        }
+      },
+      "averages": {
+        "respond_notna": 70,
+        "respond_na": 0
+      }
+    },
+    "hourly-rate": {
+      "breakdowns": {
+        "33": {
+          "value": 12,
+          "percent": 17.1,
+          "range": "Less than $400"
+        },
+        "66": {
+          "value": 35,
+          "percent": 50.0,
+          "range": "$400-$699"
+        },
+        "100": {
+          "value": 23,
+          "percent": 32.9,
+          "range": "$700 or more"
+        }
+      },
+      "averages": {
+        "median": 575.0,
+        "mean": 626.9285714285714,
+        "max": 1650.0,
+        "min": 150.0,
+        "respond_notna": 70,
+        "respond_na": 0
+      }
+    },
+    "billable-hours": {
+      "breakdowns": {
+        "16": {
+          "value": 4,
+          "percent": 5.7,
+          "range": "Less than 1,000"
+        },
+        "33": {
+          "value": 17,
+          "percent": 24.3,
+          "range": "1,000-1,499"
+        },
+        "50": {
+          "value": 14,
+          "percent": 20.0,
+          "range": "1,500-1,799"
+        },
+        "66": {
+          "value": 18,
+          "percent": 25.7,
+          "range": "1,800-1,999"
+        },
+        "83": {
+          "value": 7,
+          "percent": 10.0,
+          "range": "2,000-2,199"
+        },
+        "100": {
+          "value": 10,
+          "percent": 14.3,
+          "range": "2,200 or more"
+        }
+      },
+      "averages": {
+        "median": 1797.5,
+        "mean": 1699.7571428571428,
+        "max": 3000.0,
+        "min": 600.0,
+        "respond_notna": 70,
+        "respond_na": 0
+      }
+    },
+    "years-before-partner": {
+      "breakdowns": {
+        "16": {
+          "value": 0,
+          "percent": 0.0,
+          "range": "Less than 3"
+        },
+        "33": {
+          "value": 2,
+          "percent": 2.9,
+          "range": "3-5"
+        },
+        "50": {
+          "value": 41,
+          "percent": 58.6,
+          "range": "6-9"
+        },
+        "66": {
+          "value": 27,
+          "percent": 38.6,
+          "range": "10-14"
+        },
+        "83": {
+          "value": 0,
+          "percent": 0.0,
+          "range": "15-19"
+        },
+        "100": {
+          "value": 0,
+          "percent": 0.0,
+          "range": "20 or more"
+        }
+      },
+      "averages": {
+        "median": 9.0,
+        "mean": 8.785714285714286,
+        "max": 12.0,
+        "min": 5.0,
+        "respond_notna": 70,
+        "respond_na": 0
+      }
+    },
+    "cap-contribution": {
+      "breakdowns": {
+        "25": {
+          "value": 17,
+          "percent": 50.0,
+          "range": "Less than 10%"
+        },
+        "50": {
+          "value": 4,
+          "percent": 11.8,
+          "range": "10%-19%"
+        },
+        "75": {
+          "value": 7,
+          "percent": 20.6,
+          "range": "20%-29%"
+        },
+        "100": {
+          "value": 6,
+          "percent": 17.6,
+          "range": "30% or more"
+        }
+      },
+      "averages": {
+        "median": 9.165,
+        "mean": 16.450882352941175,
+        "max": 100.0,
+        "min": 0.0,
+        "respond_notna": 34,
+        "respond_na": 36
+      }
+    },
+    "stay-at-firm": {
+      "breakdowns": {
+        "0": {
+          "value": 18,
+          "percent": 25.7,
+          "range": "No"
+        },
+        "100": {
+          "value": 52,
+          "percent": 74.3,
+          "range": "Yes"
+        }
+      },
+      "averages": {
+        "respond_notna": 70,
+        "respond_na": 0
+      }
+    },
+    "length": 70
+  },
+  "largeAll": {
+    "annual-comp": {
+      "breakdowns": {
+        "33": {
+          "value": 18,
+          "percent": 13.7,
+          "range": "Less than $300,000"
+        },
+        "66": {
+          "value": 52,
+          "percent": 39.7,
+          "range": "$300,000-$749,999"
+        },
+        "100": {
+          "value": 61,
+          "percent": 46.6,
+          "range": "$750,000 or more"
+        }
+      },
+      "averages": {
+        "median": 650000.0,
+        "mean": 1007374.0610687023,
+        "max": 5500000.0,
+        "min": 1.0,
+        "respond_notna": 131,
+        "respond_na": 0
+      }
+    },
+    "satisfaction": {
+      "breakdowns": {
+        "0": {
+          "value": 14,
+          "percent": 10.7,
+          "range": "Very dissatisfied"
+        },
+        "25": {
+          "value": 20,
+          "percent": 15.3,
+          "range": "Somewhat dissatisfied"
+        },
+        "50": {
+          "value": 11,
+          "percent": 8.4,
+          "range": "Neither satisfied nor dissatisfied"
+        },
+        "75": {
+          "value": 62,
+          "percent": 47.3,
+          "range": "Somewhat satisfied"
+        },
+        "100": {
+          "value": 24,
+          "percent": 18.3,
+          "range": "Very satisfied"
+        }
+      },
+      "averages": {
+        "respond_notna": 131,
+        "respond_na": 0
+      }
+    },
+    "hourly-rate": {
+      "breakdowns": {
+        "33": {
+          "value": 10,
+          "percent": 7.6,
+          "range": "Less than $400"
+        },
+        "66": {
+          "value": 23,
+          "percent": 17.6,
+          "range": "$400-$699"
+        },
+        "100": {
+          "value": 98,
+          "percent": 74.8,
+          "range": "$700 or more"
+        }
+      },
+      "averages": {
+        "median": 850.0,
+        "mean": 883.4503816793894,
+        "max": 1500.0,
+        "min": 0.0,
+        "respond_notna": 131,
+        "respond_na": 0
+      }
+    },
+    "billable-hours": {
+      "breakdowns": {
+        "16": {
+          "value": 5,
+          "percent": 3.8,
+          "range": "Less than 1,000"
+        },
+        "33": {
+          "value": 28,
+          "percent": 21.4,
+          "range": "1,000-1,499"
+        },
+        "50": {
+          "value": 33,
+          "percent": 25.2,
+          "range": "1,500-1,799"
+        },
+        "66": {
+          "value": 30,
+          "percent": 22.9,
+          "range": "1,800-1,999"
+        },
+        "83": {
+          "value": 20,
+          "percent": 15.3,
+          "range": "2,000-2,199"
+        },
+        "100": {
+          "value": 15,
+          "percent": 11.5,
+          "range": "2,200 or more"
+        }
+      },
+      "averages": {
+        "median": 1754.0,
+        "mean": 1704.1145038167938,
+        "max": 2450.0,
+        "min": 0.0,
+        "respond_notna": 131,
+        "respond_na": 0
+      }
+    },
+    "years-before-partner": {
+      "breakdowns": {
+        "16": {
+          "value": 0,
+          "percent": 0.0,
+          "range": "Less than 3"
+        },
+        "33": {
+          "value": 0,
+          "percent": 0.0,
+          "range": "3-5"
+        },
+        "50": {
+          "value": 80,
+          "percent": 61.1,
+          "range": "6-9"
+        },
+        "66": {
+          "value": 50,
+          "percent": 38.2,
+          "range": "10-14"
+        },
+        "83": {
+          "value": 1,
+          "percent": 0.8,
+          "range": "15-19"
+        },
+        "100": {
+          "value": 0,
+          "percent": 0.0,
+          "range": "20 or more"
+        }
+      },
+      "averages": {
+        "median": 9.0,
+        "mean": 9.041984732824428,
+        "max": 15.0,
+        "min": 6.0,
+        "respond_notna": 131,
+        "respond_na": 0
+      }
+    },
+    "cap-contribution": {
+      "breakdowns": {
+        "25": {
+          "value": 28,
+          "percent": 38.4,
+          "range": "Less than 10%"
+        },
+        "50": {
+          "value": 5,
+          "percent": 6.8,
+          "range": "10%-19%"
+        },
+        "75": {
+          "value": 16,
+          "percent": 21.9,
+          "range": "20%-29%"
+        },
+        "100": {
+          "value": 24,
+          "percent": 32.9,
+          "range": "30% or more"
+        }
+      },
+      "averages": {
+        "median": 20.0,
+        "mean": 22.13972602739726,
+        "max": 100.0,
+        "min": 0.0,
+        "respond_notna": 73,
+        "respond_na": 58
+      }
+    },
+    "stay-at-firm": {
+      "breakdowns": {
+        "0": {
+          "value": 30,
+          "percent": 22.9,
+          "range": "No"
+        },
+        "100": {
+          "value": 101,
+          "percent": 77.1,
+          "range": "Yes"
+        }
+      },
+      "averages": {
+        "respond_notna": 131,
+        "respond_na": 0
+      }
+    },
+    "length": 131
+  },
+  "largeMale": {
+    "annual-comp": {
+      "breakdowns": {
+        "33": {
+          "value": 8,
+          "percent": 9.8,
+          "range": "Less than $300,000"
+        },
+        "66": {
+          "value": 27,
+          "percent": 32.9,
+          "range": "$300,000-$749,999"
+        },
+        "100": {
+          "value": 47,
+          "percent": 57.3,
+          "range": "$750,000 or more"
+        }
+      },
+      "averages": {
+        "median": 812500.0,
+        "mean": 1165060.987804878,
+        "max": 5500000.0,
+        "min": 195000.0,
+        "respond_notna": 82,
+        "respond_na": 0
+      }
+    },
+    "satisfaction": {
+      "breakdowns": {
+        "0": {
+          "value": 8,
+          "percent": 9.8,
+          "range": "Very dissatisfied"
+        },
+        "25": {
+          "value": 15,
+          "percent": 18.3,
+          "range": "Somewhat dissatisfied"
+        },
+        "50": {
+          "value": 5,
+          "percent": 6.1,
+          "range": "Neither satisfied nor dissatisfied"
+        },
+        "75": {
+          "value": 36,
+          "percent": 43.9,
+          "range": "Somewhat satisfied"
+        },
+        "100": {
+          "value": 18,
+          "percent": 22.0,
+          "range": "Very satisfied"
+        }
+      },
+      "averages": {
+        "respond_notna": 82,
+        "respond_na": 0
+      }
+    },
+    "hourly-rate": {
+      "breakdowns": {
+        "33": {
+          "value": 6,
+          "percent": 7.3,
+          "range": "Less than $400"
+        },
+        "66": {
+          "value": 11,
+          "percent": 13.4,
+          "range": "$400-$699"
+        },
+        "100": {
+          "value": 65,
+          "percent": 79.3,
+          "range": "$700 or more"
+        }
+      },
+      "averages": {
+        "median": 900.0,
+        "mean": 920.8536585365854,
+        "max": 1500.0,
+        "min": 205.0,
+        "respond_notna": 82,
+        "respond_na": 0
+      }
+    },
+    "billable-hours": {
+      "breakdowns": {
+        "16": {
+          "value": 2,
+          "percent": 2.4,
+          "range": "Less than 1,000"
+        },
+        "33": {
+          "value": 15,
+          "percent": 18.3,
+          "range": "1,000-1,499"
+        },
+        "50": {
+          "value": 24,
+          "percent": 29.3,
+          "range": "1,500-1,799"
+        },
+        "66": {
+          "value": 18,
+          "percent": 22.0,
+          "range": "1,800-1,999"
+        },
+        "83": {
+          "value": 15,
+          "percent": 18.3,
+          "range": "2,000-2,199"
+        },
+        "100": {
+          "value": 8,
+          "percent": 9.8,
+          "range": "2,200 or more"
+        }
+      },
+      "averages": {
+        "median": 1777.0,
+        "mean": 1722.6463414634147,
+        "max": 2400.0,
+        "min": 900.0,
+        "respond_notna": 82,
+        "respond_na": 0
+      }
+    },
+    "years-before-partner": {
+      "breakdowns": {
+        "16": {
+          "value": 0,
+          "percent": 0.0,
+          "range": "Less than 3"
+        },
+        "33": {
+          "value": 0,
+          "percent": 0.0,
+          "range": "3-5"
+        },
+        "50": {
+          "value": 48,
+          "percent": 58.5,
+          "range": "6-9"
+        },
+        "66": {
+          "value": 34,
+          "percent": 41.5,
+          "range": "10-14"
+        },
+        "83": {
+          "value": 0,
+          "percent": 0.0,
+          "range": "15-19"
+        },
+        "100": {
+          "value": 0,
+          "percent": 0.0,
+          "range": "20 or more"
+        }
+      },
+      "averages": {
+        "median": 9.0,
+        "mean": 9.048780487804878,
+        "max": 12.0,
+        "min": 6.0,
+        "respond_notna": 82,
+        "respond_na": 0
+      }
+    },
+    "cap-contribution": {
+      "breakdowns": {
+        "25": {
+          "value": 18,
+          "percent": 32.7,
+          "range": "Less than 10%"
+        },
+        "50": {
+          "value": 3,
+          "percent": 5.5,
+          "range": "10%-19%"
+        },
+        "75": {
+          "value": 13,
+          "percent": 23.6,
+          "range": "20%-29%"
+        },
+        "100": {
+          "value": 21,
+          "percent": 38.2,
+          "range": "30% or more"
+        }
+      },
+      "averages": {
+        "median": 20.0,
+        "mean": 24.094545454545454,
+        "max": 80.0,
+        "min": 0.0,
+        "respond_notna": 55,
+        "respond_na": 27
+      }
+    },
+    "stay-at-firm": {
+      "breakdowns": {
+        "0": {
+          "value": 12,
+          "percent": 14.6,
+          "range": "No"
+        },
+        "100": {
+          "value": 70,
+          "percent": 85.4,
+          "range": "Yes"
+        }
+      },
+      "averages": {
+        "respond_notna": 82,
+        "respond_na": 0
+      }
+    },
+    "length": 82
+  },
+  "largeFemale": {
+    "annual-comp": {
+      "breakdowns": {
+        "33": {
+          "value": 6,
+          "percent": 15.0,
+          "range": "Less than $300,000"
+        },
+        "66": {
+          "value": 22,
+          "percent": 55.0,
+          "range": "$300,000-$749,999"
+        },
+        "100": {
+          "value": 12,
+          "percent": 30.0,
+          "range": "$750,000 or more"
+        }
+      },
+      "averages": {
+        "median": 460000.0,
+        "mean": 721150.0,
+        "max": 2500000.0,
+        "min": 186000.0,
+        "respond_notna": 40,
+        "respond_na": 0
+      }
+    },
+    "satisfaction": {
+      "breakdowns": {
+        "0": {
+          "value": 5,
+          "percent": 12.5,
+          "range": "Very dissatisfied"
+        },
+        "25": {
+          "value": 4,
+          "percent": 10.0,
+          "range": "Somewhat dissatisfied"
+        },
+        "50": {
+          "value": 3,
+          "percent": 7.5,
+          "range": "Neither satisfied nor dissatisfied"
+        },
+        "75": {
+          "value": 22,
+          "percent": 55.0,
+          "range": "Somewhat satisfied"
+        },
+        "100": {
+          "value": 6,
+          "percent": 15.0,
+          "range": "Very satisfied"
+        }
+      },
+      "averages": {
+        "respond_notna": 40,
+        "respond_na": 0
+      }
+    },
+    "hourly-rate": {
+      "breakdowns": {
+        "33": {
+          "value": 3,
+          "percent": 7.5,
+          "range": "Less than $400"
+        },
+        "66": {
+          "value": 12,
+          "percent": 30.0,
+          "range": "$400-$699"
+        },
+        "100": {
+          "value": 25,
+          "percent": 62.5,
+          "range": "$700 or more"
+        }
+      },
+      "averages": {
+        "median": 758.5,
+        "mean": 801.925,
+        "max": 1490.0,
+        "min": 0.0,
+        "respond_notna": 40,
+        "respond_na": 0
+      }
+    },
+    "billable-hours": {
+      "breakdowns": {
+        "16": {
+          "value": 2,
+          "percent": 5.0,
+          "range": "Less than 1,000"
+        },
+        "33": {
+          "value": 12,
+          "percent": 30.0,
+          "range": "1,000-1,499"
+        },
+        "50": {
+          "value": 7,
+          "percent": 17.5,
+          "range": "1,500-1,799"
+        },
+        "66": {
+          "value": 9,
+          "percent": 22.5,
+          "range": "1,800-1,999"
+        },
+        "83": {
+          "value": 4,
+          "percent": 10.0,
+          "range": "2,000-2,199"
+        },
+        "100": {
+          "value": 6,
+          "percent": 15.0,
+          "range": "2,200 or more"
+        }
+      },
+      "averages": {
+        "median": 1700.0,
+        "mean": 1658.3,
+        "max": 2450.0,
+        "min": 0.0,
+        "respond_notna": 40,
+        "respond_na": 0
+      }
+    },
+    "years-before-partner": {
+      "breakdowns": {
+        "16": {
+          "value": 0,
+          "percent": 0.0,
+          "range": "Less than 3"
+        },
+        "33": {
+          "value": 0,
+          "percent": 0.0,
+          "range": "3-5"
+        },
+        "50": {
+          "value": 27,
+          "percent": 67.5,
+          "range": "6-9"
+        },
+        "66": {
+          "value": 12,
+          "percent": 30.0,
+          "range": "10-14"
+        },
+        "83": {
+          "value": 1,
+          "percent": 2.5,
+          "range": "15-19"
+        },
+        "100": {
+          "value": 0,
+          "percent": 0.0,
+          "range": "20 or more"
+        }
+      },
+      "averages": {
+        "median": 9.0,
+        "mean": 9.075,
+        "max": 15.0,
+        "min": 6.0,
+        "respond_notna": 40,
+        "respond_na": 0
+      }
+    },
+    "cap-contribution": {
+      "breakdowns": {
+        "25": {
+          "value": 9,
+          "percent": 64.3,
+          "range": "Less than 10%"
+        },
+        "50": {
+          "value": 2,
+          "percent": 14.3,
+          "range": "10%-19%"
+        },
+        "75": {
+          "value": 1,
+          "percent": 7.1,
+          "range": "20%-29%"
+        },
+        "100": {
+          "value": 2,
+          "percent": 14.3,
+          "range": "30% or more"
+        }
+      },
+      "averages": {
+        "median": 5.0,
+        "mean": 15.428571428571429,
+        "max": 100.0,
+        "min": 0.0,
+        "respond_notna": 14,
+        "respond_na": 26
+      }
+    },
+    "stay-at-firm": {
+      "breakdowns": {
+        "0": {
+          "value": 16,
+          "percent": 40.0,
+          "range": "No"
+        },
+        "100": {
+          "value": 24,
+          "percent": 60.0,
+          "range": "Yes"
+        }
+      },
+      "averages": {
+        "respond_notna": 40,
+        "respond_na": 0
+      }
+    },
+    "length": 40
+  }
+}

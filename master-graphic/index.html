@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Partner Comp Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="https://www.law360.com/d3.v5.min.js"></script>
+  <script type="text/javascript" src="buddy-methods.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.0/countUp.min.js'></script>
+</head>
+
+<body>
+  <div id="graphic-container">
+    <div id="select-container">
+      <span id="selector-options">
+        <p>
+          <span class="select-box" id="select-box-1">
+            <label class="select-label select-label-top" for="#select-box-1"><strong>Compare:</strong></label>
+            <label for="#gender-1">Gender</label>
+            <select class="sb1" name="Q43" id="gender-1">
+              <option value="all" selected>All</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+            <br class="mobile-break">
+            <label for="#firm-size-1">Practice Area</label>
+            <select class="sb1" name="Q36" id="firm-size-1">
+              <option value="all" selected>All</option>
+              <option value="administrative-regulatory">Administrative/Regulatory</option>
+              <option value="antitrust">Antitrust</option>
+              <option value="banking">Banking</option>
+              <option value="bankruptcy">Bankruptcy</option>
+              <option value="corporate">Corporate</option>
+              <option value="energy">Energy</option>
+              <option value="entertainment">Entertainment</option>
+              <option value="environmental">Environmental</option>
+              <option value="erisa-benefits">ERISA/Benefits</option>
+              <option value="government-contracts">Government Contracts</option>
+              <option value="healthcare">Healthcare</option>
+              <option value="immigration">Immigration</option>
+              <option value="insurance">Insurance</option>
+              <option value="international">International</option>
+              <option value="ip">IP</option>
+              <option value="labor-employment">Labor & Employment</option>
+              <option value="litigation">Litigation</option>
+              <option value="ma">M&A</option>
+              <option value="privacy-cybersecurity">Privacy/Cybersecurity</option>
+              <option value="project-finance">Project Finance</option>
+              <option value="real-estate">Real Estate</option>
+              <option value="tax">Tax</option>
+              <option value="trusts-estates">Trusts & Estates</option>
+              <option value="other">Other</option>
+            </select>
+          </span>
+          <br />
+          <span class="select-box" id="select-box-2">
+            <label class="select-label select-label-top" for="#select-box-2"><strong>to:</strong></label>
+            <label for="#gender-2">Gender</label>
+            <select class="sb2" name="Q43" id="gender-2">
+              <option value="all">All</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+            <br class="mobile-break">
+            <label for="#firm-size-2">Practice Area</label>
+            <select class="sb2" name="Q36" id="firm-size-2">
+              <option value="all" selected>All</option>
+              <option value="administrative-regulatory">Administrative/Regulatory</option>
+              <option value="antitrust">Antitrust</option>
+              <option value="banking">Banking</option>
+              <option value="bankruptcy">Bankruptcy</option>
+              <option value="corporate">Corporate</option>
+              <option value="energy">Energy</option>
+              <option value="entertainment">Entertainment</option>
+              <option value="environmental">Environmental</option>
+              <option value="erisaBenefits">ERISA/Benefits</option>
+              <option value="government-contracts">Government Contracts</option>
+              <option value="healthcare">Healthcare</option>
+              <option value="immigration">Immigration</option>
+              <option value="insurance">Insurance</option>
+              <option value="international">International</option>
+              <option value="ip">IP</option>
+              <option value="labor-employment">Labor & Employment</option>
+              <option value="litigation">Litigation</option>
+              <option value="ma">M&A</option>
+              <option value="privacy-cybersecurity">Privacy/Cybersecurity</option>
+              <option value="project-finance">Project Finance</option>
+              <option value="real-estate">Real Estate</option>
+              <option value="tax">Tax</option>
+              <option value="trusts-estates">Trusts & Estates</option>
+              <option value="other">Other</option>
+            </select>
+          </span>
+        </p>
+      </span>
+      <span id="selector-instructions">
+        <p>Compare aggregated results
+          based on gender and law firm
+          size using these filters.</p>
+      </span>
+    </div>
+    <div id="bars" style="clear: both;">
+      <label class="bar-label" for="#annual-comp-bar"><strong>Annual Compensation</strong><br></label>
+
+      <p class="demo-wrap" id="annual-comp-demo-1"><span class="demo demo1"><span class="gender">GENDER</span> | <span class="firm-size">FIRM SIZE</span></span></p>
+      <span id="annual-comp-avg-1" style="clear: both;" class="avg h3"><span class="avg-container">Average: <span class="mean">$<span class="mean-val avg-val">0</span><br class="mobile-break"></span>Median: <span class="median">$<span
+              class="median-val avg-val">0</span></span></span></span>
+      <div id="annual-comp-bar-1" style="clear: both;" class="pct-bar h3 bar-1"></div>
+      <p class="demo-wrap" id="annual-comp-demo-2"><span class="demo demo2"><span class="gender">GENDER</span> | <span class="firm-size">FIRM SIZE</span></span></p>
+      <span id="annual-comp-avg-2" style="clear: both;" class="avg h3"><span class="avg-container">Average: <span class="mean">$<span class="mean-val avg-val">0</span><br class="mobile-break"></span>Median: <span class="median">$<span
+              class="median-val avg-val">0</span></span></span></span>
+      <div id="annual-comp-bar-2" style="clear: both;" class="pct-bar h3 bar-2"></div>
+      <br />
+      <label class="bar-label" for="#satisfaction-bar"><strong>Satisfaction</strong><br></label>
+      <p class="demo-wrap" id="satisfaction-demo-1"><span class="demo demo1"><span class="gender">GENDER</span> | <span class="firm-size">FIRM SIZE</span></span></p>
+      <div id="satisfaction-bar-1" style="clear: both;" class="pct-bar h3 bar-1">
+      </div>
+      <p class="demo-wrap" id="satisfaction-demo-2"><span class="demo demo2"><span class="gender">GENDER</span> | <span class="firm-size">FIRM SIZE</span></span></p>
+      <div id="satisfaction-bar-2" style="clear: both;" class="pct-bar h3 bar-2">
+      </div>
+      <br />
+      <label class="bar-label" for="#hourly-rate-bar"><strong>Hourly Rate</strong><br></label>
+      <p class="demo-wrap" id="hourly-rate-demo-1"><span class="demo demo1"><span class="gender">GENDER</span> | <span class="firm-size">FIRM SIZE</span></span></p>
+      <span id="hourly-rate-avg-1" style="clear: both;" class="avg h3"><span class="avg-container">Average: <span class="mean">$<span class="mean-val avg-val">0</span><br class="mobile-break"></span>Median: <span class="median">$<span
+              class="median-val avg-val">0</span></span></span></span>
+      <div id="hourly-rate-bar-1" style="clear: both;" class="pct-bar h3 bar-1"></div>
+      <p class="demo-wrap" id="hourly-rate-demo-2"><span class="demo demo2"><span class="gender">GENDER</span> | <span class="firm-size">FIRM SIZE</span></span></p>
+      <span id="hourly-rate-avg-2" style="clear: both;" class="avg h3"><span class="avg-container">Average: <span class="mean">$<span class="mean-val avg-val">0</span><br class="mobile-break"></span>Median: <span class="median">$<span
+              class="median-val avg-val">0</span></span></span></span>
+      <div id="hourly-rate-bar-2" style="clear: both;" class="pct-bar h3 bar-2"></div>
+      <br />
+      <label class="bar-label" for="#billable-hours-bar"><strong>Billable Hours</strong><br></label>
+      <p class="demo-wrap" id="billable-hours-demo-1"><span class="demo demo1"><span class="gender">GENDER</span> | <span class="firm-size">FIRM SIZE</span></span></p>
+      <span id="billable-hours-avg-1" style="clear: both;" class="avg h3"><span class="avg-container">Average: <span class="mean"><span class="mean-val avg-val">0</span> hours<br class="mobile-break"></span>Median: <span class="median"><span
+              class="median-val avg-val">0</span>
+            hours</span></span></span>
+      <div id="billable-hours-bar-1" style="clear: both;" class="pct-bar h3 bar-1"></div>
+      <p class="demo-wrap" id="billable-hours-demo-2"><span class="demo demo2"><span class="gender">GENDER</span> | <span class="firm-size">FIRM SIZE</span></span></p>
+      <span id="billable-hours-avg-2" style="clear: both;" class="avg h3"><span class="avg-container">Average: <span class="mean"><span class="mean-val avg-val">0</span> hours<br class="mobile-break"></span>Median: <span class="median"><span
+              class="median-val avg-val">0</span>
+            hours</span></span></span>
+      <div id="billable-hours-bar-2" style="clear: both;" class="pct-bar h3 bar-2"></div>
+
+      <br />
+      <!-- <label class="bar-label" for="#years-before-partner-bar"><strong>Years Before Partner</strong><br></label>
+      <p class="demo-wrap" id="years-before-partner-demo-1"><span class="demo demo1"><span class="gender">GENDER</span> | <span class="firm-size">FIRM SIZE</span></span></p>
+      <span id="years-before-partner-avg-1" style="clear: both;" class="avg h3"><span class="avg-container">Average: <span class="mean"><span class="mean-val avg-val">0</span> years<br class="mobile-break"></span>Median: <span class="median"><span
+              class="median-val avg-val">0</span>
+            years</span></span></span>
+      <div id="years-before-partner-bar-1" style="clear: both;" class="pct-bar h3 bar-1"></div>
+
+      <p class="demo-wrap" id="years-before-partner-demo-2"><span class="demo demo2"><span class="gender">GENDER</span> | <span class="firm-size">FIRM SIZE</span></span></p>
+      <span id="years-before-partner-avg-2" style="clear: both;" class="avg h3"><span class="avg-container">Average: <span class="mean"><span class="mean-val avg-val">0</span> years<br class="mobile-break"></span>Median: <span class="median"><span
+              class="median-val avg-val">0</span>
+            years</span></span></span>
+      <div id="years-before-partner-bar-2" style="clear: both;" class="pct-bar h3 bar-2"></div>
+      <br />
+      <label class="bar-label" for="#cap-contribution-bar"><strong>Capital Contribution</strong><br></label>
+      <p class="demo-wrap" id="cap-contribution-demo-1"><span class="demo demo1"><span class="gender">GENDER</span> | <span class="firm-size">FIRM SIZE</span></span></p>
+      <span id="cap-contribution-avg-1" style="clear: both;" class="avg h3"><span class="avg-container">Average: <span class="mean"><span class="mean-val avg-val">0</span>%<br class="mobile-break"></span>Median: <span class="median"><span
+              class="median-val avg-val">0</span>%</span></span></span>
+      <div id="cap-contribution-bar-1" style="clear: both;" class="pct-bar h3 bar-1">
+      </div>
+
+      <p class="demo-wrap" id="cap-contribution-demo-2"><span class="demo demo2"><span class="gender">GENDER</span> | <span class="firm-size">FIRM SIZE</span></span></p>
+      <span id="cap-contribution-avg-2" style="clear: both;" class="avg h3"><span class="avg-container">Average: <span class="mean"><span class="mean-val avg-val">0</span>%<br class="mobile-break"></span>Median: <span class="median"><span
+              class="median-val avg-val">0</span>%</span></span></span>
+      <div id="cap-contribution-bar-2" style="clear: both;" class="pct-bar h3 bar-2"></div>
+      <br />
+      <label class="bar-label" for="#stay-at-firm-bar"><strong>Do you hope to remain at your current firm the rest of your career?</strong><br></label>
+      <p class="demo-wrap" id="stay-at-firm-demo-1"><span class="demo demo1"><span class="gender">GENDER</span> | <span class="firm-size">FIRM SIZE</span></span></p>
+      <div id="stay-at-firm-bar-1" style="clear: both;" class="pct-bar h3 bar-1">
+      </div>
+      <p class="demo-wrap" id="stay-at-firm-demo-2"><span class="demo demo2"><span class="gender">GENDER</span> | <span class="firm-size">FIRM SIZE</span></span></p>
+      <div id="stay-at-firm-bar-2" style="clear: both;" class="pct-bar h3 bar-2">
+      </div>
+      <br /> -->
+    </div>
+  </div>
+  <div id='methodology'>
+    <em>--By Ben Jay and the Law360 Pulse Staff.</em><br />
+    <br />
+    <em><a href="https://www.law360.com/pulse/articles/1350625" target="_blank">Click here</a> for more insights and analysis of Law360 Pulse's Partner Compensation Report.</em><br />
+    <br />
+    <em>Methodology: The Law360 Pulse Partner Compensation survey was conducted between Sept. 1 and Oct. 16, 2020, and included 584 participants at law firms with at least 25 attorneys. The survey was anonymous and will not connect any individual
+      response with any person. The average firm headcount of respondents is 647 and the average number of partners at respondents' firms is 257. On average, responding partners have been at the partner level for 12 years. In data visualizations,
+      numbers may total to more than 100% due to rounding. Total respondents include male, female, nonbinary and those who declined to identify.</em>
+  </div>
+
+  <script type="text/javascript" src="runner.js" defer></script>
+</body>
+
+</html>

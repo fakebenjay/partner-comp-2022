@@ -1,0 +1,250 @@
+#graphic-container {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: visible;
+  /* background-color: #D7D7D9; */
+}
+
+#selector-options {
+  float: right;
+  width: 45% !important;
+  padding: 0 10px 0 10px;
+}
+
+.bar-2 {
+  margin-bottom: 20px;
+}
+
+#selector-instructions {
+  height: auto;
+  float: left;
+  width: 40% !important;
+  font-size: 20pt;
+  padding: 0 10px 0 10px;
+  padding-left: 5%;
+  text-align: left;
+  line-height: normal;
+}
+
+#selector-instructions p {
+  margin: 26.6667px 0;
+}
+
+#selector-options p {
+  margin: 16px 0;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.tooltip p {
+  margin: 12px 0 12px 0;
+  padding: 0 4px;
+}
+
+.pct-bar {
+  height: 74px;
+  margin-top: 5px;
+}
+
+.gender, .firm-size {
+  line-height: normal;
+}
+
+.demo {
+  /* min-width: 10%;
+  max-width: 10%; */
+  /* display: flex; */
+  align-items: center;
+}
+
+.demo-wrap {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  min-width: 100%;
+  text-align: center;
+}
+
+label {
+  font-weight: normal;
+}
+
+.select-label {
+  display: block;
+  text-align: center;
+  font-size: 16pt;
+}
+
+.bar-label {
+  display: block;
+  text-align: center;
+  font-size: 20pt;
+}
+
+.bar-break {
+  line-height: 0.25em;
+}
+
+#select-container {
+  display: block;
+  overflow: auto;
+  width: 100% !important;
+  z-index: 2;
+  text-align: center;
+  background-color: #0b2a44;
+  padding: 20px 0;
+  left: 0;
+  color: white;
+  margin: 0 0 20px 0;
+  border-radius: 20px;
+  position: sticky;
+  position: -webkit-sticky;
+  /* Safari */
+  top: 0px;
+}
+
+#bars {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.pct-bar {
+  display: flex;
+  position: relative;
+}
+
+.bar {
+  display: inline-block;
+  /* margin: 0 auto; */
+  z-index: 1;
+  overflow: hidden;
+  text-align: center !important;
+  /* position: relative; */
+  padding: 0;
+  margin: 0;
+  border: 1px solid white;
+  height: 64px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+rect {
+  z-index: 15;
+}
+
+.outer {
+  overflow: hidden;
+}
+
+.helper {
+  width: 1px;
+  height: 100%;
+  float: left;
+}
+
+.bar-seg-label {
+  text-align: center;
+  color: #f4f4f4;
+}
+
+.black-label .bar-seg-label {
+  color: black;
+}
+
+.label-container {
+  padding-top: 8px;
+  vertical-align: middle;
+  height: 64px !important;
+  display: inline-block;
+  width: 100%;
+}
+
+.range-label {
+  font-size: 9pt;
+  margin: 0 auto;
+}
+
+.bar-seg-label strong {
+  height: 15%;
+  font-size: 16px;
+}
+
+.mean {
+  text-align: center;
+  margin-right: 3%;
+}
+
+.avg-container {
+  display: block;
+  text-align: center;
+  padding-top: 0px;
+  font-size: 18px;
+}
+
+select, input, textarea, button {
+  font: 99% sans-serif;
+  margin-right: 12px !important;
+}
+
+/* LONGFORM SPECIFIC */
+.social-share {
+  visibility: hidden;
+}
+
+.body-copy {
+  max-width: 100%;
+}
+
+div.row {
+  width: 100%;
+  margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .mean {
+    margin: 0% !important;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .avg-container .mobile-break {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    overflow: visible;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #selector-instructions {
+    display: none;
+  }
+
+  #selector-options {
+    min-width: 100%;
+    padding: 0 0 0 0 !important;
+  }
+
+  #selector-options p {
+    margin: 0;
+  }
+}
