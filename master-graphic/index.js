@@ -5,7 +5,7 @@
 // On the initial load, this function is called 2x: once for each dropdown pair
 // After that, it's called once every time you change any dropdown
 function loadData(gender, firmSize, barRef) {
-  Promise.all([d3.json("PCS_bengraphic.json"), gender, firmSize])
+  Promise.all([d3.json("PCS_bengraphicv2.json"), gender, firmSize])
     .then(function(data) {
       //after this line, "data" is the array param in the promise
 
@@ -248,7 +248,6 @@ function loadData(gender, firmSize, barRef) {
                   var barReference = parseInt(ancestorID[ancestorID.length - 1])
 
                   var nodes = [document.querySelector(`#${catIDs[i]}-avg-1 .${avgType}-val`), document.querySelector(`#${catIDs[i]}-avg-2 .${avgType}-val`)]
-
                   var oldVal = parseFloat(that.text().replaceAll(',', ''))
                   var newVal = parseFloat(a.toFixed(2))
 
@@ -258,7 +257,7 @@ function loadData(gender, firmSize, barRef) {
                   // Counts up/down to new value
                   var iNum = d3.interpolateNumber(oldVal, newVal);
                   // Different decimal places for $ questions
-                  if ((catIDs[i] === 'annual-comp' || catIDs[i] === 'hourly-rate')) {
+                  if ((catIDs[i] === 'annual-comp' || catIDs[i] === 'hourly-rate' || catIDs[i] === 'working-attorney-receipts' || catIDs[i] === 'originations')) {
                     var format = d3.format(",.0f");
                   } else {
                     var format = d3.format(",.2~f");

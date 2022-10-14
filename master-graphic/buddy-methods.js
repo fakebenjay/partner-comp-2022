@@ -9,29 +9,29 @@ function colorScaleFinder(dataLength) {
   } else if (dataLength == 3) {
     return d3.scaleQuantize()
       .domain([0, 101])
-      .range(['#C5C9D7', '#687A8E', '#0B2A44']);
+      .range(['#D5563A', '#646F8C', '#0B2A44']);
   } else if (dataLength == 4) {
     return d3.scaleQuantize()
       .domain([0, 101])
-      .range(['#C5C9D7', '#8794A6', '#495F75', '#0B2A44']);
+      .range(['#D5563A', '#9D6363', '#384D68', '#0B2A44']);
   } else if (dataLength == 5) {
     return d3.scaleQuantize()
       .domain([0, 101])
-      .range(['#D5563A', '#A3696B', '#707C9C', '#3E5370', '#0B2A44']);
+      .range(['#D5563A', '#9D6363', '#646F8C', '#384D68', '#0B2A44']);
   } else if (dataLength == 6) {
     return d3.scaleQuantize()
       .domain([0, 101])
-      .range(['#C5C9D7', '#A0A9BA', '#7B899C', '#556A7F', '#304A61', '#0B2A44']);
+      .range(['#D5563A', '#AF5E55', '#8A6771', '#465874', '#29415C', '#0B2A44']);
   } else if (dataLength == 7) {
     return d3.scaleQuantize()
       .domain([0, 101])
-      .range(['#D5563A', '#c8587f', '#986ea3', '#707C9C', '#4f5f7d', '#2f4460', '#0B2A44']);
+      .range(['#D5563A', '#AF5E55', '#8A6771', '#646F8C', '#465874', '#29415C', '#0B2A44']);
   }
 }
 
 // Changes text color to black for lighter background colors (default white)
 function textColorFinder(breakdownKey, catID) {
-  if (breakdownKey < 35 && catID != "stay-at-firm" && catID != 'satisfaction') {
+  if (breakdownKey < 60 && catID != "stay-at-firm") {
     return 'black'
   } else {
     return '#f4f4f4'
@@ -86,7 +86,7 @@ function sizeLabel(s) {
 // Integers for dollar amount metrics
 // Two decimals max for every other quantitative metric
 function decimalizer(category, val) {
-  if ((category === 'annual-comp' || category === 'hourly-rate') && (parseFloat(val) != parseInt(val))) {
+  if ((category === 'annual-comp' || category === 'hourly-rate' || category === 'working-attorney-receipts' || category === 'originations') && (parseFloat(val) != parseInt(val))) {
     return numeral(val).format('0,0')
   } else {
     return numeral(val).format('0,0.[00]')
