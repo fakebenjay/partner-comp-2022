@@ -9,19 +9,19 @@ function colorScaleFinder(dataLength) {
   } else if (dataLength == 3) {
     return d3.scaleQuantize()
       .domain([0, 101])
-      .range(['#D5563A', '#646F8C', '#0B2A44']);
+      .range(['#C5C9D7', '#687A8E', '#0B2A44']);
   } else if (dataLength == 4) {
     return d3.scaleQuantize()
       .domain([0, 101])
-      .range(['#D5563A', '#9D6363', '#384D68', '#0B2A44']);
+      .range(['#C5C9D7', '#8794A6', '#495F75', '#0B2A44']);
   } else if (dataLength == 5) {
     return d3.scaleQuantize()
       .domain([0, 101])
-      .range(['#D5563A', '#9D6363', '#646F8C', '#384D68', '#0B2A44']);
+      .range(['#c5c9d7', '#b4bac9', '#969eb1', '#758196', '#0B2A44']);
   } else if (dataLength == 6) {
     return d3.scaleQuantize()
       .domain([0, 101])
-      .range(['#D5563A', '#AF5E55', '#8A6771', '#465874', '#29415C', '#0B2A44']);
+      .range(['#C5C9D7', '#A0A9BA', '#7B899C', '#556A7F', '#304A61', '#0B2A44']);
   } else if (dataLength == 7) {
     return d3.scaleQuantize()
       .domain([0, 101])
@@ -31,7 +31,7 @@ function colorScaleFinder(dataLength) {
 
 // Changes text color to black for lighter background colors (default white)
 function textColorFinder(breakdownKey, catID) {
-  if (breakdownKey < 60 && catID != "stay-at-firm") {
+  if (breakdownKey < 60 && catID != "satisfaction") {
     return 'black'
   } else {
     return '#f4f4f4'
@@ -114,23 +114,28 @@ function plural(word, number) {
 // Defines tooltip language for each bar segment
 function tooltipper(d) {
   if (d.className.includes('annual-comp')) {
-    var firstLine = `<p><strong>${d.value}</strong> out of <strong>${d.respondNotNA}</strong> respondents earned <strong>${ranger(d.range)}</strong>.</p>`
+    var firstLine = `<p><strong>${numeral(d.value).format('0,0')}</strong> out of <strong>${numeral(d.respondNotNA).format('0,0')}</strong> respondents earned <strong>${ranger(d.range)}</strong>.</p>`
   } else if (d.className.includes('satisfaction')) {
-    var firstLine = `<p><strong>${d.value}</strong> out of <strong>${d.respondNotNA}</strong> respondents were <strong>${ranger(d.range)}</strong>.</p>`
+    var firstLine = `<p><strong>${numeral(d.value).format('0,0')}</strong> out of <strong>${numeral(d.respondNotNA).format('0,0')}</strong> respondents were <strong>${ranger(d.range)}</strong>.</p>`
   } else if (d.className.includes('hourly-rate')) {
-    var firstLine = `<p><strong>${d.value}</strong> out of <strong>${d.respondNotNA}</strong> respondents had an hourly rate <strong>${ranger(d.range)}</strong>.</p>`
+    var firstLine = `<p><strong>${numeral(d.value).format('0,0')}</strong> out of <strong>${numeral(d.respondNotNA).format('0,0')}</strong> respondents had an hourly rate <strong>${ranger(d.range)}</strong>.</p>`
   } else if (d.className.includes('billable-hours')) {
-    var firstLine = `<p><strong>${d.value}</strong> out of <strong>${d.respondNotNA}</strong> respondents had <strong>${ranger(d.range)}</strong> billable hours.</p>`
+    var type = d.className.includes('non') ? 'nonbillable hours' : 'billable hours'
+    var firstLine = `<p><strong>${numeral(d.value).format('0,0')}</strong> out of <strong>${numeral(d.respondNotNA).format('0,0')}</strong> respondents had <strong>${ranger(d.range)}</strong> ${type}.</p>`
   } else if (d.className.includes('years-before-partner')) {
-    var firstLine = `<p><strong>${d.value}</strong> out of <strong>${d.respondNotNA}</strong> respondents said associates typically waited <strong>${ranger(d.range)} years</strong> before making partner.</p>`
+    var firstLine = `<p><strong>${numeral(d.value).format('0,0')}</strong> out of <strong>${numeral(d.respondNotNA).format('0,0')}</strong> respondents said associates typically waited <strong>${ranger(d.range)} years</strong> before making partner.</p>`
   } else if (d.className.includes('cap-contribution')) {
-    var firstLine = `<p><strong>${d.value}</strong> out of <strong>${d.respondNotNA}</strong> respondents reported capital contributions of <strong>${ranger(d.range)}</strong>.</p>`
+    var firstLine = `<p><strong>${numeral(d.value).format('0,0')}</strong> out of <strong>${numeral(d.respondNotNA).format('0,0')}</strong> respondents reported capital contributions of <strong>${ranger(d.range)}</strong>.</p>`
   } else if (d.className.includes('stay-at-firm')) {
-    var firstLine = `<p><strong>${d.value}</strong> out of <strong>${d.respondNotNA}</strong> respondents ${(d.range === "Yes") ? 'planned' : 'did not plan'} on staying permanently at their current firm</strong>.</p>`
+    var firstLine = `<p><strong>${numeral(d.value).format('0,0')}</strong> out of <strong>${numeral(d.respondNotNA).format('0,0')}</strong> respondents ${(d.range === "Yes") ? 'planned' : 'did not plan'} on staying permanently at their current firm</strong>.</p>`
+  } else if (d.className.includes('working-attorney-receipts')) {
+    var firstLine = `<p><strong>${numeral(d.value).format('0,0')}</strong> out of <strong>${numeral(d.respondNotNA).format('0,0')}</strong> respondents worked at firms that brought in <strong>${ranger(d.range)} worth of working attorney receipts</strong>.</p>`
+  } else if (d.className.includes('originations')) {
+    var firstLine = `<p><strong>${numeral(d.value).format('0,0')}</strong> out of <strong>${numeral(d.respondNotNA).format('0,0')}</strong> respondents reported <strong>${ranger(d.range)} worth of originations</strong>.</p>`
   }
 
   // Optional second line if there were any N/A responses (blank string if there aren't)
-  var secondLine = d.respondNA === 0 ? '' : `<p><strong>${d.respondNA}</strong> ${plural('respondent', d.respondNA)} declined to answer.</p>`
+  var secondLine = d.respondNA === 0 ? '' : `<p><strong>${numeral(d.respondNA).format('0,0')}</strong> ${plural('respondent', d.respondNA)} declined to answer.</p>`
   return firstLine + secondLine
 }
 

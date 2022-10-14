@@ -39,11 +39,11 @@ var optionsSize2 = selectSize2.children
 
 // generate a random number between 0 and the total amount of options
 // the number will always be an index within the bounds of the array (options)
-var randomGender = 0
-var randomSize = 0
+var randomGender = 2
+var randomSize = 7
 
 // ensure both selects don't load as All/All
-while (randomGender === 0 && randomSize === 0) {
+while ((randomGender === 0 && randomSize === 0) || (randomGender === 2 && randomSize === 7)) {
   randomGender = Math.floor(Math.random() * optionsGender2.length)
   randomSize = Math.floor(Math.random() * optionsSize2.length)
 }

@@ -10,8 +10,14 @@
   padding: 0 10px 0 10px;
 }
 
-.bar-2 {
+.bar-2, .na-2 {
   margin-bottom: 20px;
+}
+
+.na {
+  width: 100%;
+  text-align: center;
+  display: none;
 }
 
 #selector-instructions {
