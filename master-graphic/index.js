@@ -5,7 +5,7 @@
 // On the initial load, this function is called 2x: once for each dropdown pair
 // After that, it's called once every time you change any dropdown
 function loadData(gender, firmSize, barRef) {
-  Promise.all([d3.json("PCS_bengraphicv3.json"), gender, firmSize])
+  Promise.all([d3.json("PCS_bengraphicv4.json"), gender, firmSize])
     .then(function(data) {
       //after this line, "data" is the array param in the promise
 
